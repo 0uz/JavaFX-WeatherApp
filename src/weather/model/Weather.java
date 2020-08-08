@@ -12,7 +12,7 @@ import java.net.URL;
 import java.net.URLConnection;
 
 public class Weather {
-    private static final String OWN_API_KEY = "5314680a836268eb2c4389322c0f3b7c";
+    private static final String OWN_API_KEY = apikey.getAPIKey();
     String weatherDes,temp,pressure,humidity,temp_min,temp_max,wind_speed,wind_deg,location,unit,lang,city,cloudiness,url,icon;
 
 
