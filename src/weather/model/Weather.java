@@ -2,6 +2,7 @@ package weather.model;
 
 import javafx.scene.control.Label;
 import org.json.JSONObject;
+import weather.APIKey;
 
 import java.awt.*;
 import java.io.BufferedReader;
@@ -12,7 +13,7 @@ import java.net.URL;
 import java.net.URLConnection;
 
 public class Weather {
-    private static final String OWN_API_KEY = apikey.getAPIKey();
+    private static final String OWN_API_KEY = APIKey.getApiKey();
     String weatherDes,temp,pressure,humidity,temp_min,temp_max,wind_speed,wind_deg,location,unit,lang,city,cloudiness,url,icon;
 
 
